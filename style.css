@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(243, 240, 236);
+}
+.nav{
+    height: 40px;
+    width: 40px;
+    padding: 0 20px;
+    padding: 4px;
+}
+.nav h2{
+    text-align: center;
+}
+.heading{
+    width: 100%;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 10px;
+}
+.heading h1{
+    font-size: 3vw;
+}
+.heading p{
+    font-size: .8vw;
+    font-weight: 500;
+}
+.containt{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw;
+}
+.box{
+    width: 13vw;
+    height: 25vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(226, 222, 222);
+    transition: ease 1s;
+}
+.image{
+    height: 76%;
+    width: 100%;
+    border-radius: 6px;
+    background-color: rgba(202, 184, 184, 0.644);
+    overflow: hidden;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: ease 1s;
+}
+.box h2{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+}
+.box p{
+    padding: 0 5px;
+    font-size: 15px;
+    margin-top: .5vh;
+}
+.image:hover img{
+    scale: 1.1;
+}
+.box:hover{
+    scale: 1.05;
+}
+.nav h2:hover{
+    cursor: pointer;
+}
