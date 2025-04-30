@@ -1,0 +1,36 @@
+@media screen and (max-width:600px) {
+    nav h3{
+        padding: 1vw 3vw;
+        font-size: 7vw;
+    }
+    .heading h1{
+        font-size: 9vw;
+    }
+    .heading p{
+        text-align: center;
+        width: 60%;
+        font-size: 2vw;
+    }
+    .container{
+        flex-direction: column;
+        gap: 7vw;
+        padding: 7vw 0;
+        overflow: scroll;
+    }
+    .box{
+        width: 40%;
+    }
+    .imageContainer{
+        height: 50vw;
+    }
+    .box h2{
+        font-size: 3.5vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+    .box h4{
+        font-size: 2vw;
+        margin-bottom: 1vw;
+        margin-left: 2vw;
+    }
+}
