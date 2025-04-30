@@ -22,6 +22,7 @@
         overflow: scroll;
     }
     .box{
+        padding: 1vw;
         width: 40%;
     }
     .imageContainer{
@@ -37,4 +38,14 @@
         margin-bottom: 1vw;
         margin-left: 2vw;
     }
+}
+
+.imageContainer img{
+    transition: all linear 250ms;
+}
+.imageContainer img:hover{
+    scale: 1.1;
+}
+nav h3:hover{
+    cursor: pointer;
 }
