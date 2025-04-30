@@ -1,4 +1,8 @@
 @media screen and (max-width:600px) {
+    .main{
+        min-height: 100vh;
+        height: auto;
+    }
     nav h3{
         padding: 1vw 3vw;
         font-size: 7vw;

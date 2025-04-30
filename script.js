@@ -1,3 +1,5 @@
+
+
 var tl = gsap.timeline();
 var tl2 = gsap.timeline();
 
@@ -6,12 +8,24 @@ from('.head span',{
     opacity:0,
     stagger:.1,
 })
-.from('.box',{
-    height:0,
-    opacity:0,
-    stagger:.3,
-
+if(window.innerWidth>600){
+    tl.from('.box',{
+        height:0,
+        opacity:0,
+        stagger:.3,
 })
+}
+else{
+    tl.from('.box',{
+        width:0,
+        opacity:0,
+        stagger:.3,
+
+    })
+}
+
+
+tl
 .from('.box h2',{
     y:50,
     opacity:0,
@@ -35,6 +49,7 @@ tl2
     opacity:0,
     duration:1.5
 })
+
 
 
 let width = window.innerWidth;
