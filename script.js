@@ -30,16 +30,17 @@ tl
     y:50,
     opacity:0,
     stagger:.3,
+    
 })
+
+tl2
 .from('.box h4',{
     y:50,
     opacity:0,
     stagger:.3,
+    delay:4,
 })
-
-tl2
 .from('.para span',{
-    delay:5,
     opacity:0,
     stagger:.1,
     duration:2
